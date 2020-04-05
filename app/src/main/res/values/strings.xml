@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">KotlinFragmentPractice</string>
+    <string name="new_balance">new balance</string>
+    <string name="nb">NB</string>
+    <string name="supreme">Supreme</string>
+    <string name="select">Select</string>
+</resources>
