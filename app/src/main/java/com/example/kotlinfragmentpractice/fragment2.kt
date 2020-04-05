@@ -2,6 +2,7 @@ package com.example.kotlinfragmentpractice
 
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -33,5 +34,10 @@ class fragment2 : Fragment() {
                 ?.addToBackStack(null)
                 ?.commit()
         }
+    }
+
+    override fun onStop() {
+        super.onStop()
+        Log.i("Third fragment", "Has been stopped")
     }
 }
