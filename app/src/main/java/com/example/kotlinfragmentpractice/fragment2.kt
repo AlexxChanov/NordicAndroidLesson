@@ -3,6 +3,7 @@ package com.example.kotlinfragmentpractice
 
 import android.os.Bundle
 import android.util.Log
+
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -34,6 +35,15 @@ class fragment2 : Fragment() {
                 ?.addToBackStack(null)
                 ?.commit()
         }
+    }
+    fun someVeryImportantFeature(){
+        repeat(10){
+            Log.i("Feature","Hello, i'm feature!")
+        }
+    }
+    fun AnotherVeryImportantFeature(){
+        text1.x = 100f
+        text1.y = 100f
     }
 
     override fun onStop() {
